@@ -379,3 +379,32 @@
   font-size: 15px;
   background-color: #6772e5;
 }
+
+/* Section7 */
+.Section7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Section7Column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
+  height: 400px;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  border: 3px solid #dbdfe7;
+  border-radius: 6px;
+  padding-top: 40px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 100px;
+  width: 100vw;
+  height: 400px;
+  background-color: #1a202c;
+}
