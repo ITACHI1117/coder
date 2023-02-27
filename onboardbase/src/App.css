@@ -205,3 +205,177 @@
   border-right: 6px solid #6772e5;
   border-radius: 5px;
 }
+/* Section 4 */
+.Section4 {
+  margin-bottom: 200px;
+}
+
+/* Section5 */
+.Section5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Section5Column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
+  height: 650px;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  border: 3px solid #dbdfe7;
+  border-radius: 6px;
+  padding-top: 40px;
+}
+.Section5Column2 p {
+  width: 400px;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #8c96a9;
+  line-height: 19px;
+}
+.Section5Row2 {
+  display: flex;
+  margin-bottom: 40px;
+}
+.Section5Row2 img {
+  height: 44px;
+}
+.Section5Column2 {
+  margin-left: 10px;
+}
+.Section5Column2 h2 {
+  font-size: 14px;
+  font-weight: 16px;
+}
+
+/* Section 6 */
+.Section6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.paydayBox {
+  margin-top: 50px;
+  display: flex;
+  width: 350px;
+  height: 40px;
+  background-color: #f4f5f7;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  margin-bottom: 100px;
+  border-radius: 8px;
+}
+.paydayBox button {
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
+}
+.annualBtn {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.annualBtn div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+  width: 30px;
+  height: 20px;
+  background-color: #6772e5;
+  color: white;
+  border-radius: 3px;
+  font-weight: 300;
+  font-size: 10px;
+}
+.annualBox {
+  background-color: transparent;
+
+  /* #6772E5 */
+}
+
+.Pricing {
+  width: 900px;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.Price1 {
+  width: 400px;
+  height: 750px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+}
+/* scale is a button */
+.Scale {
+  width: 70px;
+  height: 25px;
+  background-color: #f0f5ff;
+  border-radius: 20px;
+  border: none;
+  font-size: 12px;
+  color: #6772e5;
+  margin-bottom: 10px;
+}
+.Price1 h1 {
+  font-size: 40px;
+}
+.Price1 h1 span {
+  font-size: 15px;
+  color: #8c96a9;
+  margin-bottom: 5px;
+}
+.Price1 p {
+  color: #8c96a9;
+  margin-bottom: 30px;
+}
+.scaleRow {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.scaleRow img {
+  width: 35px;
+}
+.scaleRow h5 {
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.BtnDiv {
+  margin-top: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.BtnDiv .Btn1 {
+  margin-top: 95px;
+}
+
+.BtnDiv button {
+  height: 40px;
+  width: 350px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 15px;
+  background-color: #6772e5;
+}
