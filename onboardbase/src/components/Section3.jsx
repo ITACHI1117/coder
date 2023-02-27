@@ -1,5 +1,7 @@
 import React from "react";
-import like from "../assets/images/like.png";
+import shareApi from "../Data/ShareApi";
+import Section3List1 from "./ListItems/Section3List1";
+import Section3List2 from "./ListItems/Section3List2";
 
 function Section3() {
   return (
@@ -16,20 +18,13 @@ function Section3() {
       </div>
       <div className="Section3Row">
         <div className="Section3Column">
-          <div className="Section3Row2">
-            <img src={like} alt="" />
-            <div className="Section3Column2">
-              <h2>Backend Local</h2>
-              <p>
-                Backend environment variables like, keys for database, gitlab,
-                digital ocean. etc. that devs need to work.
-              </p>
-            </div>
-          </div>
+          {shareApi.map((item) => {
+            return <Section3List1 key={item.id} {...item} />;
+          })}
         </div>
-        {/* <div>
-          <h1>Gangs</h1>
-        </div> */}
+        <div className="section3list2">
+          <Section3List2 />
+        </div>
       </div>
     </div>
   );
